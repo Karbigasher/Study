@@ -3,7 +3,7 @@ typesInJS = {
     number: 245,
     bool: true
 }
-
+//1
 console.log("addition:")
 
 for (let item in typesInJS) {
@@ -14,7 +14,7 @@ for (let item in typesInJS) {
         console.log(`result of addition between ${item} and ${subitem} is ${typesInJS[item] + typesInJS[subitem]}`)
     }
 }
-
+//2
 console.log("multiplication:")
 
 for (let item in typesInJS) {
@@ -25,7 +25,7 @@ for (let item in typesInJS) {
         console.log(`result of multiplication between ${item} and ${subitem} is ${typesInJS[item] * typesInJS[subitem]}`)
     }
 }
-
+//3
 console.log("division:")
 
 for (let item in typesInJS) {
@@ -36,7 +36,7 @@ for (let item in typesInJS) {
         console.log(`result of division between ${item} and ${subitem} is ${typesInJS[item] / typesInJS[subitem]}`)
     }
 }
-
+//4
 console.log("Type conversion:")
 
 for (let item in typesInJS) {
